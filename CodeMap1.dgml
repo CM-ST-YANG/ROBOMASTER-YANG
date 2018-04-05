@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" GraphDirection="TopToBottom" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="APM" Category="CodeSchema_Property" Bounds="835.822295626917,650.130150431701,65.9590614540482,25.24" UseManualLocation="True" />
+    <Node Id="到引导线尽头" Category="CodeSchema_Assembly" Bounds="45.7948894900806,770.74658203125,184,25" Label="到引导线尽头返回成功标识" />
+    <Node Id="基地区位置X" Category="CodeSchema_Enum" Bounds="-204.005435417767,661.684890256802,104.74,25.24" Label="基地区位置X" />
+    <Node Id="基地区位置Y" Category="CodeSchema_Enum" Bounds="-204.005332064902,688.924758420865,104.243333333333,25.24" Label="基地区位置Y" />
+    <Node Id="完成抓取" Category="CodeSchema_Event" Bounds="5.79488949008061,354.785622753906,473,816.921608496094" Group="Expanded" Label="完成抓取" />
+    <Node Id="完成投放" Category="CodeSchema_Event" Bounds="536.531253731124,475.518928125408,196.000057303975,195.699613667969" Group="Expanded" Label="完成投放" UseManualLocation="True" />
+    <Node Id="对准基地区释放抓取" Category="CodeSchema_Method" Bounds="562.531311035156,625.978395238428,144,25.24" Label="对准基地区释放抓取" />
+    <Node Id="对准引导线" Category="CodeSchema_Assembly" Bounds="287.794889490081,600.506098632813,100,25.24" Label="对准引导线" />
+    <Node Id="对准抓取区并降落" Category="CodeSchema_Assembly" Bounds="239.794767419768,1051.58703613281,184,25" Label="对准抓取区并降落一定高度" />
+    <Node Id="对准抓取区降落抓取" Category="CodeSchema_Class" Bounds="40.7948894900806,900.98683359375,402.999877929688,250.72029765625" Group="Expanded" />
+    <Node Id="引导性开始" Category="CodeSchema_Enum" Bounds="-402.635404900189,688.924880491177,97,25.24" Label="引导线开始" />
+    <Node Id="引导线丢失等待处理" Category="CodeSchema_Assembly" Bounds="260.794889490081,770.74658203125,172,25" Label="引导线丢失返回失败标识" />
+    <Node Id="引导线偏离中心距离" Category="CodeSchema_Enum" Bounds="-402.635404900189,743.404860959927,145,25.24" Label="引导线偏离中心距离" />
+    <Node Id="引导线偏离角度" Category="CodeSchema_Enum" Bounds="-402.635404900189,716.164870725552,145,25.24" Label="引导线偏离中心角度" />
+    <Node Id="引导线结束" Category="CodeSchema_Enum" Bounds="-402.635404900189,661.684890256802,97,25.24" />
+    <Node Id="抓取" Category="CodeSchema_Property" Bounds="830.104895961332,735.13048571013,62.4490614540482,25.24" UseManualLocation="True" />
+    <Node Id="抓取区位置X" Category="CodeSchema_Enum" Bounds="-391.005404900189,830.644820676724,104.74,25.24" Label="抓取区位置X" />
+    <Node Id="抓取区位置Y" Category="CodeSchema_Enum" Bounds="-391.005438876426,857.88496349899,104.243333333333,25.24" Label="抓取区位置Y" />
+    <Node Id="搜寻失败返回失败标识" Category="CodeSchema_Assembly" Bounds="66.7948856753833,545.265986328125,160,25.24" Label="搜寻失败返回失败标识" />
+    <Node Id="搜寻失败返回失败标识1" Category="CodeSchema_Assembly" Bounds="60.7948894900806,996.226923828125,160,25.24" Label="搜寻失败返回失败标识" />
+    <Node Id="搜寻成功返回成功标识" Category="CodeSchema_Assembly" Bounds="251.794950525237,996.227045898438,160,25.24" />
+    <Node Id="搜寻成功返回成功标识1" Category="CodeSchema_Assembly" Bounds="257.794889490081,545.265986328125,160,25.24" Label="搜寻成功返回成功标识" />
+    <Node Id="搜寻抓取区位置" Category="CodeSchema_Assembly" Bounds="269.794889490081,940.98693359375,124,25.24" />
+    <Node Id="旋转一周搜寻引导线1" Category="CodeSchema_Assembly" Bounds="263.794950525237,490.025935058594,148,25.2400000000001" Label="旋转一周搜寻引导线" />
+    <Node Id="沿引导线飞行" Category="CodeSchema_Assembly" Bounds="254.794889490081,715.746459960937,184,25" Label="沿引导线飞行至引导线结束" />
+    <Node Id="沿引导线飞行到基地区" Category="CodeSchema_Method" Bounds="556.531311035156,570.738160863428,156,25.24" Label="沿引导线飞行到基地区" />
+    <Node Id="沿引导线飞行到抓取区" Category="CodeSchema_Class" Bounds="25.7948894900806,675.746359960937,433,195.240408740234" Group="Expanded" />
+    <Node Id="直接降落" Category="CodeSchema_Assembly" Bounds="275.794889490081,1106.70703125,112,25" Label="直接降落抓取" />
+    <Node Id="等待处理" Category="CodeSchema_Assembly" Bounds="102.79490474887,600.506159667969,88,25.24" Label="等待处理" />
+    <Node Id="等待处理1" Category="CodeSchema_Assembly" Bounds="302.794889490081,825.746668701172,87.9999999999999,25.24" Label="等待处理" />
+    <Node Id="等待处理2" Category="CodeSchema_Assembly" Bounds="96.7948894900806,1051.46703613281,88,25.24" Label="等待处理" />
+    <Node Id="结束降落" Category="CodeSchema_Method" Bounds="590.201661083225,775.093771601897,84,25.2400000000001" Label="结束降落" UseManualLocation="True" />
+    <Node Id="获取基地区位置" Category="CodeSchema_Method" Bounds="-221.635435417767,635.684790256802,140,84.4800681640627" Group="Expanded" Label="获取基地区位置" />
+    <Node Id="获取引导线位置" Category="CodeSchema_Method" Bounds="-408.635404900189,635.684676829011,157,138.960170703125" Group="Expanded" Label="获取引导线位置" />
+    <Node Id="获取抓取区位置" Category="CodeSchema_Method" Bounds="-408.635421888307,804.644947532136,140,84.4803428222656" Group="Expanded" Label="获取抓取区位置" />
+    <Node Id="视觉" Category="CodeSchema_Property" Bounds="-428.635438876425,595.684576829011,367,313.44" Group="Expanded" UseManualLocation="True" />
+    <Node Id="起飞定高1" Category="CodeSchema_Assembly" Bounds="293.794889490081,434.785822753906,88,25.24" Label="起飞定高" />
+    <Node Id="起飞寻找引导线" Category="CodeSchema_Method" Bounds="574.579588964729,515.51898157046,119.9032,25.219008" Label="起飞寻找引导线" />
+    <Node Id="起飞寻找引导线1" Category="CodeSchema_Class" Bounds="46.7948856753833,394.785722753906,391.000003814697,250.960536914063" Group="Expanded" Label="起飞寻找引导线" />
+    <Node Id="静止等待" Category="CodeSchema_Assembly" Bounds="93.7948894900806,825.746638183594,88,25.24" />
+    <Node Id="飞行控制" Category="CodeSchema_Property" Bounds="-14.2051086425782,314.785522753906,766.736450195313,876.921808496094" Group="Expanded" />
+  </Nodes>
+  <Links>
+    <Link Source="到引导线尽头" Target="静止等待" Bounds="137.794235229492,795.745910644531,0,20.9999389648438" />
+    <Link Source="完成抓取" Target="完成投放" Bounds="478.794889490081,624.731048594748,49.6356265825972,24.0281075120947" />
+    <Link Source="完成抓取" Target="对准抓取区降落抓取" Category="Contains" />
+    <Link Source="完成抓取" Target="沿引导线飞行到抓取区" Category="Contains" />
+    <Link Source="完成抓取" Target="起飞寻找引导线1" Category="Contains" />
+    <Link Source="完成投放" Target="对准基地区释放抓取" Category="Contains" />
+    <Link Source="完成投放" Target="沿引导线飞行到基地区" Category="Contains" />
+    <Link Source="完成投放" Target="结束降落" Bounds="632.436632709474,671.218541793377,1.03116289255092,94.8757348421902" />
+    <Link Source="完成投放" Target="起飞寻找引导线" Category="Contains" />
+    <Link Source="对准基地区释放抓取" Target="抓取" Bounds="660.753385634187,651.218388671875,166.244336394228,80.0091525579846" />
+    <Link Source="对准抓取区并降落" Target="直接降落" Bounds="331.794250488281,1076.58581542969,0,21.1199951171875" />
+    <Link Source="对准抓取区降落抓取" Target="对准抓取区并降落" Category="Contains" />
+    <Link Source="对准抓取区降落抓取" Target="抓取" Bounds="443.794738769531,764.064141318368,381.286221852532,171.597817972967" />
+    <Link Source="对准抓取区降落抓取" Target="搜寻失败返回失败标识1" Category="Contains" />
+    <Link Source="对准抓取区降落抓取" Target="搜寻成功返回成功标识" Category="Contains" />
+    <Link Source="对准抓取区降落抓取" Target="搜寻抓取区位置" Category="Contains" />
+    <Link Source="对准抓取区降落抓取" Target="直接降落" Category="Contains" />
+    <Link Source="对准抓取区降落抓取" Target="等待处理2" Category="Contains" />
+    <Link Source="引导性开始" Target="旋转一周搜寻引导线1" Bounds="707.052718098672,223.737678139633,234.837355055546,58.3944927633259" />
+    <Link Source="引导线丢失等待处理" Target="等待处理1" Bounds="346.794250488281,795.745910644531,0,20.9999389648438" />
+    <Link Source="引导线偏离中心距离" Target="沿引导线飞行" Bounds="426.639022957753,176.183851381676,563.305796483987,79.0087752934913" />
+    <Link Source="引导线偏离角度" Target="沿引导线飞行" Bounds="429.571652617878,172.847492589753,560.323824677044,57.7894767663396" />
+    <Link Source="引导线结束" Target="沿引导线飞行" Bounds="429.615129245443,165.452076089319,560.280348049478,16.733670986223" />
+    <Link Source="搜寻失败返回失败标识" Target="等待处理" Bounds="146.794235229492,570.505981445313,0,21" />
+    <Link Source="搜寻失败返回失败标识1" Target="等待处理2" Bounds="140.794235229492,1021.46575927734,0,21.0000610351563" />
+    <Link Source="搜寻成功返回成功标识" Target="对准抓取区并降落" Bounds="331.794250488281,1021.46575927734,0,21.1200561523438" />
+    <Link Source="搜寻成功返回成功标识1" Target="对准引导线" Bounds="337.794250488281,570.505981445313,0,21" />
+    <Link Source="搜寻抓取区位置" Target="搜寻失败返回失败标识1" Bounds="193.075317382813,966.225769042969,95.08349609375,27.4995727539063" />
+    <Link Source="搜寻抓取区位置" Target="搜寻成功返回成功标识" Bounds="331.794250488281,966.225769042969,0,21" />
+    <Link Source="旋转一周搜寻引导线1" Target="搜寻失败返回失败标识" Bounds="199.075317382813,515.265991210938,95.08349609375,27.4995727539063" />
+    <Link Source="旋转一周搜寻引导线1" Target="搜寻成功返回成功标识1" Bounds="337.794250488281,515.265991210938,0,21" />
+    <Link Source="沿引导线飞行" Target="到引导线尽头" Bounds="193.997909545898,740.745910644531,105.296340942383,27.7095336914063" />
+    <Link Source="沿引导线飞行" Target="引导线丢失等待处理" Bounds="346.794250488281,740.745910644531,0,21" />
+    <Link Source="沿引导线飞行到基地区" Target="对准基地区释放抓取" Bounds="634.53125,595.977233886719,0,21.0000610351563" />
+    <Link Source="沿引导线飞行到抓取区" Target="到引导线尽头" Category="Contains" />
+    <Link Source="沿引导线飞行到抓取区" Target="对准抓取区降落抓取" Bounds="242.294860871238,870.986768701172,5.06656704146735E-06,21.0000648925784" />
+    <Link Source="沿引导线飞行到抓取区" Target="引导线丢失等待处理" Category="Contains" />
+    <Link Source="沿引导线飞行到抓取区" Target="沿引导线飞行" Category="Contains" />
+    <Link Source="沿引导线飞行到抓取区" Target="等待处理1" Category="Contains" />
+    <Link Source="沿引导线飞行到抓取区" Target="静止等待" Category="Contains" />
+    <Link Source="获取基地区位置" Target="基地区位置X" Category="Contains" />
+    <Link Source="获取基地区位置" Target="基地区位置Y" Category="Contains" />
+    <Link Source="获取基地区位置" Target="对准基地区释放抓取" Bounds="704.287010954954,-1195.97537323272,401.056253342432,180.381221907747" />
+    <Link Source="获取引导线位置" Target="引导性开始" Category="Contains" />
+    <Link Source="获取引导线位置" Target="引导线偏离中心距离" Category="Contains" />
+    <Link Source="获取引导线位置" Target="引导线偏离角度" Category="Contains" />
+    <Link Source="获取引导线位置" Target="引导线结束" Category="Contains" />
+    <Link Source="获取引导线位置" Target="沿引导线飞行到基地区" Bounds="128.735074250935,222.432756399171,811.022707731487,30.6655102755618" />
+    <Link Source="获取引导线位置" Target="沿引导线飞行到抓取区" Bounds="498.000610190422,219.963177393151,503.394405383941,35.7904905665192" />
+    <Link Source="获取引导线位置" Target="起飞寻找引导线" Bounds="34.9214953259354,226.339352181464,904.836286656487,79.2423641912218" />
+    <Link Source="获取引导线位置" Target="起飞寻找引导线1" Bounds="853.819666763901,233.725335966579,85.938115218521,15.6119847664507" />
+    <Link Source="获取抓取区位置" Target="对准抓取区降落抓取" Bounds="1383.85100406447,399.845104176346,81.9636869620094,41.3226796574805" />
+    <Link Source="获取抓取区位置" Target="抓取区位置X" Category="Contains" />
+    <Link Source="获取抓取区位置" Target="抓取区位置Y" Category="Contains" />
+    <Link Source="视觉" Target="获取基地区位置" Category="Contains" />
+    <Link Source="视觉" Target="获取引导线位置" Category="Contains" />
+    <Link Source="视觉" Target="获取抓取区位置" Category="Contains" />
+    <Link Source="视觉" Target="飞行控制" Bounds="130.183515664064,-865.353830248288,252.962964275828,38.7645173926475" />
+    <Link Source="起飞定高1" Target="旋转一周搜寻引导线1" Bounds="337.794250488281,460.026000976563,0,21" />
+    <Link Source="起飞寻找引导线" Target="沿引导线飞行到基地区" Bounds="634.53125,540.737182617188,0,21.0000610351563" />
+    <Link Source="起飞寻找引导线1" Target="对准引导线" Category="Contains" />
+    <Link Source="起飞寻找引导线1" Target="搜寻失败返回失败标识" Category="Contains" />
+    <Link Source="起飞寻找引导线1" Target="搜寻成功返回成功标识1" Category="Contains" />
+    <Link Source="起飞寻找引导线1" Target="旋转一周搜寻引导线1" Category="Contains" />
+    <Link Source="起飞寻找引导线1" Target="沿引导线飞行到抓取区" Bounds="242.294888528343,645.746259667969,1.58255318183365E-07,21.0001002929685" />
+    <Link Source="起飞寻找引导线1" Target="等待处理" Category="Contains" />
+    <Link Source="起飞寻找引导线1" Target="起飞定高1" Category="Contains" />
+    <Link Source="飞行控制" Target="APM" Bounds="752.531341552734,670.327528934665,74.4350440171063,13.4819304358033" />
+    <Link Source="飞行控制" Target="完成抓取" Category="Contains" />
+    <Link Source="飞行控制" Target="完成投放" Category="Contains" />
+    <Link Source="飞行控制" Target="抓取" Bounds="1259.63152367172,-1254.90997057244,183.577951975081,57.9306004078251" />
+    <Link Source="飞行控制" Target="结束降落" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Assembly" Label="程序集" BasedOn="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Assembly" NavigationActionLabel="程序集" />
+    <Category Id="CodeSchema_Class" Label="类" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="类" />
+    <Category Id="CodeSchema_Enum" Label="枚举" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Enum" NavigationActionLabel="枚举" />
+    <Category Id="CodeSchema_Event" Label="事件" BasedOn="CodeSchema_Field" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Event" NavigationActionLabel="事件" />
+    <Category Id="CodeSchema_Field" Label="字段" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="字段" />
+    <Category Id="CodeSchema_Member" Label="编号" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="成员" />
+    <Category Id="CodeSchema_Method" Label="方法" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="方法" />
+    <Category Id="CodeSchema_Property" Label="属性" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Property" NavigationActionLabel="属性" />
+    <Category Id="CodeSchema_Type" Label="类型" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="类型" />
+    <Category Id="Contains" Label="包含" Description="链接的源是否包含目标对象" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="包含者" IsContainment="True" OutgoingActionLabel="包含" />
+    <Category Id="File" Label="文件" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="文件" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DataVirtualized" Label="已虚拟化数据" Description="如果为 true，则图中可以包含表示虚拟化节点/链接(即，不在图中实际创建)的数据的节点和链接。" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="Group" Label="组" Description="将节点显示为组" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="图标" Description="图标" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="Label" Label="标签" Description="可批注对象的可显示标签" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="结果" ValueLabel="True">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="测试项目" ValueLabel="测试项目">
+      <Condition Expression="HasCategory('CodeMap_TestProject')" />
+      <Setter Property="Icon" Value="CodeMap_TestProject" />
+      <Setter Property="Background" Value="#FF307A69" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Web 项目" ValueLabel="Web 项目">
+      <Condition Expression="HasCategory('CodeMap_WebProject')" />
+      <Setter Property="Icon" Value="CodeMap_WebProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Windows 应用商店项目" ValueLabel="Windows 应用商店项目">
+      <Condition Expression="HasCategory('CodeMap_WindowsStoreProject')" />
+      <Setter Property="Icon" Value="CodeMap_WindowsStoreProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="电话项目" ValueLabel="电话项目">
+      <Condition Expression="HasCategory('CodeMap_PhoneProject')" />
+      <Setter Property="Icon" Value="CodeMap_PhoneProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="可移植库" ValueLabel="可移植库">
+      <Condition Expression="HasCategory('CodeMap_PortableLibraryProject')" />
+      <Setter Property="Icon" Value="CodeMap_PortableLibraryProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="WPF 项目" ValueLabel="WPF 项目">
+      <Condition Expression="HasCategory('CodeMap_WpfProject')" />
+      <Setter Property="Icon" Value="CodeMap_WpfProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="VSIX 项目" ValueLabel="VSIX 项目">
+      <Condition Expression="HasCategory('CodeMap_VsixProject')" />
+      <Setter Property="Icon" Value="CodeMap_VsixProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="建模项目" ValueLabel="建模项目">
+      <Condition Expression="HasCategory('CodeMap_ModelingProject')" />
+      <Setter Property="Icon" Value="CodeMap_ModelingProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="程序集" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="命名空间" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="接口" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="结构" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="枚举" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="委托" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="类" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="属性" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="方法" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="事件" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="字段" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Out 参数" ValueLabel="具有类别">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="参数" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="局部变量" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="外部" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="继承自" ValueLabel="True">
+      <Condition Expression="HasCategory('InheritsFrom')" />
+      <Setter Property="Stroke" Value="#FF00A600" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="实现" ValueLabel="True">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#8000A600" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="调用" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_Calls')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="函数指针" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FunctionPointer')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="字段读取" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="字段写入" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FieldWrite')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="DrawArrow" Value="true" />
+      <Setter Property="IsHidden" Value="false" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="返回" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeSchema_ReturnTypeLink')" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="引用" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('References')" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="使用特性" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeSchema_AttributeUse')" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="解决方案文件夹" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeMap_SolutionFolder')" />
+      <Setter Property="Background" Value="#FFDEBA83" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="项目引用" ValueLabel="项目引用">
+      <Condition Expression="HasCategory('CodeMap_ProjectReference')" />
+      <Setter Property="Stroke" Value="#9A9A9A" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="外部引用" ValueLabel="外部引用">
+      <Condition Expression="HasCategory('CodeMap_ExternalReference')" />
+      <Setter Property="Stroke" Value="#9A9A9A" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+  </Styles>
+</DirectedGraph>
